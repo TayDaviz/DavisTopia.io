@@ -94,12 +94,21 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Connect with Us</h2>
-								<form action="send_email.php" method="post">
-									<input type="text" name="name" placeholder="Your Name" required>
-									<input type="email" name="email" placeholder="Your Email" required>
-									<textarea name="message" placeholder="Your Message" required></textarea>
-									<button type="submit">Send Message</button>
-								</form>
+								<form
+  action="https://formspree.io/f/xoqgropp"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 								
 								<ul class="icons">
 									
